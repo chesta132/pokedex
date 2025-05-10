@@ -1,0 +1,25 @@
+nav {
+  background: linear-gradient(135deg, var(--red) 0%, var(--dark-red) 100%);
+  color: white;
+  padding: 25px 10px 25px 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: padding 500ms ease-in-out;
+}
+
+nav.isOpen {
+  padding-bottom: 80px;
+}
+
+nav::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: white;
+  border-radius: 50% 50% 0 0;
+  z-index: 1;
+}

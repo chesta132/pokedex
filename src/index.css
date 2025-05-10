@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Global Styles */
+:root {
+  --white: #f5f5f5;
+  --dark: #333;
+  --red: #e51c23;
+  --dark-red: #c62828;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial Rounded MT Bold", "Segoe UI", sans-serif;
+}
+
+.root {
+  background-color: var(--white);
+  color: var(--dark);
+}
