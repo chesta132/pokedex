@@ -1,7 +1,7 @@
 import { Suspense, useState } from "react";
 import Nav from "./components/Home/Nav/Nav";
 import PokeCardList from "./components/Home/PokeCardList/PokeCardList";
-import Loading from "./components/loading";
+import Loading from "./components/Loading";
 
 function App() {
   const [searchValue, setSearchValue] = useState("");
