@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
 import getPokemonList from "../../../../api/pokemonList";
-import Loading from "../../loading";
+import Loading from "../../Loading";
 import { searchPokemon } from "../../../../api/searchPokemonList";
 
 export default function PokeCardList({ limit = 20, offset = 0, searchValue = "" }) {
